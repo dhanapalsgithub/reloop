@@ -4,10 +4,10 @@
     "private": true,
     "scripts": {
         "setup": "npm install",
-        "dev": "concurrently --kill-others --raw \"node server.js\" \"npm run dev --prefix apps/web\"",
-        "build": "concurrently --raw \"npm run build --prefix apps/web\"",
-        "start": "concurrently --kill-others --raw \"node server.js\"",
-        "lint": "concurrently --raw \"npm run lint --prefix apps/web\""
+        "dev": "npx --no-install concurrently --kill-others --raw \"node server.js\" \"npm run dev --prefix apps/web\"",
+        "build": "npx --no-install concurrently --raw \"npm run build --prefix apps/web\"",
+        "start": "npx --no-install concurrently --kill-others --raw \"node server.js\"",
+        "lint": "npx --no-install concurrently --raw \"npm run lint --prefix apps/web\""
     },
     "devDependencies": {
         "concurrently": "^10.0.4",

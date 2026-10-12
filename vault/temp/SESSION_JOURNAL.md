@@ -4911,3 +4911,2300 @@
 - url: http://localhost:3000/#ratelist
 - via: popstate
 
+## 2026-09-11 10:44:50.990Z load
+- url: http://localhost:3000/#ratelist
+
+## 2026-09-11 10:44:51.434Z navigate
+- url: http://localhost:3000/#ratelist
+- via: replaceState
+
+## 2026-09-11 10:45:36.216Z load
+- url: http://localhost:3000/#ratelist
+
+## 2026-09-11 10:46:36.237Z load
+- url: http://localhost:3000/#ratelist
+
+## 2026-09-11 10:47:36.305Z load
+- url: http://localhost:3000/#ratelist
+
+## 2026-09-15 04:27:03.403Z load
+- url: http://localhost:3000/
+
+## 2026-09-15 04:27:05.282Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-09-15 04:30:16.978Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign In to Dashboard"}
+
+## 2026-09-15 04:30:16.981Z navigate
+- url: http://localhost:3000/login
+- via: pushState
+
+## 2026-09-15 04:30:17.164Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:30:17.173Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:30:17.173Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:30:17.173Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 04:30:17.176Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:30:17.177Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:30:18.869Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:30:18.875Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:30:20.999Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2121
+
+## 2026-09-15 04:30:21.001Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:30:21.003Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:30:34.961Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:30:34.962Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:30:37.112Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2150
+
+## 2026-09-15 04:30:37.113Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:30:37.113Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:36:34.432Z load
+- url: http://localhost:3000/login
+
+## 2026-09-15 04:37:03.660Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:37:03.671Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:37:03.671Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:37:03.671Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 04:37:03.673Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:37:03.673Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:37:03.885Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:37:03.888Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:37:06.025Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2135
+
+## 2026-09-15 04:37:06.026Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:37:06.026Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:37:14.265Z load
+- url: http://localhost:3000/login
+
+## 2026-09-15 04:37:17.436Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:37:17.440Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:37:17.440Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:37:17.440Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 04:37:17.442Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:37:17.442Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:37:17.665Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:37:17.667Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:37:19.795Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2128
+
+## 2026-09-15 04:37:19.795Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:37:19.796Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:37:24.316Z navigate
+- url: http://localhost:3000/
+- via: popstate
+
+## 2026-09-15 04:37:27.699Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Create Account"}
+
+## 2026-09-15 04:37:27.701Z navigate
+- url: http://localhost:3000/signup
+- via: pushState
+
+## 2026-09-15 04:37:27.843Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:37:27.845Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:37:27.845Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:37:27.845Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 04:37:27.847Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:37:27.847Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:37:30.903Z navigate
+- url: http://localhost:3000/
+- via: popstate
+
+## 2026-09-15 04:37:32.272Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign In to Dashboard"}
+
+## 2026-09-15 04:37:32.273Z navigate
+- url: http://localhost:3000/login
+- via: pushState
+
+## 2026-09-15 04:37:32.399Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:37:32.400Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:37:32.400Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:37:32.400Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 04:37:32.401Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:37:32.401Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:37:33.891Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:37:33.892Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:37:36.036Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2143
+
+## 2026-09-15 04:37:36.036Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:37:36.036Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:37:57.541Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:37:57.542Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:37:59.691Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2149
+
+## 2026-09-15 04:37:59.691Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:37:59.691Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:38:01.276Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:38:01.900Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:38:03.945Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:38:05.175Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-15 04:38:05.176Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:38:05.180Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-15 04:38:05.180Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-15 04:38:06.607Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-15 04:38:06.829Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:38:06.830Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:38:08.969Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"dhanapaul2020@gmail.com","password":"[redacted:length=9]"}
+- message: Failed to fetch
+- durationMs: 2138
+
+## 2026-09-15 04:38:08.969Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:38:08.969Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:39:09.309Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:39:09.310Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:39:11.429Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"dhanapaul2020@gmail.com","password":"[redacted:length=9]"}
+- message: Failed to fetch
+- durationMs: 2119
+
+## 2026-09-15 04:39:11.429Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:39:11.429Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:39:12.772Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:39:12.773Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:39:14.925Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"dhanapaul2020@gmail.com","password":"[redacted:length=9]"}
+- message: Failed to fetch
+- durationMs: 2152
+
+## 2026-09-15 04:39:14.925Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:39:14.926Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:39:16.439Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-15 04:39:16.653Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-15 04:39:19.170Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test31@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:39:19.171Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-15 04:39:19.172Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=11]","valueLength":11,"text":""}
+
+## 2026-09-15 04:39:19.173Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=11]","valueLength":11,"text":""}
+
+## 2026-09-15 04:39:20.433Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test31@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:39:20.434Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=11]","valueLength":11,"text":""}
+
+## 2026-09-15 04:39:20.653Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=11]","valueLength":11,"text":""}
+
+## 2026-09-15 04:39:21.907Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=11]","valueLength":11,"text":""}
+
+## 2026-09-15 04:39:22.129Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Show password","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-09-15 04:39:23.890Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:39:23.891Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test31@gmail.com","length":16,"redacted":false},{"label":"Password","type":"text","value":"[redacted:length=11]","length":11,"redacted":true},{"label":"Hide password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:39:26.016Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test31@gmail.com","password":"[redacted:length=11]"}
+- message: Failed to fetch
+- durationMs: 2125
+
+## 2026-09-15 04:39:26.017Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:39:26.017Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:45:54.104Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:45:54.116Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test31@gmail.com","length":16,"redacted":false},{"label":"Password","type":"text","value":"[redacted:length=11]","length":11,"redacted":true},{"label":"Hide password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:45:56.274Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test31@gmail.com","password":"[redacted:length=11]"}
+- message: Failed to fetch
+- durationMs: 2154
+
+## 2026-09-15 04:45:56.275Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:45:56.277Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:46:00.032Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test31@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:46:00.245Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test31@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:46:02.309Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test31@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:46:02.522Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:46:02.522Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test31@gmail.com","length":16,"redacted":false},{"label":"Password","type":"text","value":"[redacted:length=11]","length":11,"redacted":true},{"label":"Hide password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:46:04.661Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test31@gmail.com","password":"[redacted:length=11]"}
+- message: Failed to fetch
+- durationMs: 2139
+
+## 2026-09-15 04:46:04.661Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:46:04.662Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:46:44.846Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:46:44.847Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test31@gmail.com","length":16,"redacted":false},{"label":"Password","type":"text","value":"[redacted:length=11]","length":11,"redacted":true},{"label":"Hide password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:46:46.998Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test31@gmail.com","password":"[redacted:length=11]"}
+- message: Failed to fetch
+- durationMs: 2150
+
+## 2026-09-15 04:46:46.998Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:46:46.998Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:46:57.848Z click
+- element: {"tag":"form","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Secure accessSign in to continueWork emailPasswordUnable to connect to server. Make sure backend is running.Sign in"}
+
+## 2026-09-15 04:47:00.701Z load
+- url: http://localhost:3000/login
+
+## 2026-09-15 04:47:01.874Z navigate
+- url: http://localhost:3000/
+- via: popstate
+
+## 2026-09-15 04:47:04.591Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Scrap"}
+
+## 2026-09-15 04:47:04.592Z navigate
+- url: http://localhost:3000/signup
+- via: pushState
+
+## 2026-09-15 04:47:04.723Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:47:04.735Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:47:04.736Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:47:04.736Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 04:47:04.739Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:47:04.740Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:47:10.119Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Already have an account? Log in"}
+
+## 2026-09-15 04:47:12.398Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Already have an account? Log in"}
+
+## 2026-09-15 04:47:17.184Z navigate
+- url: http://localhost:3000/
+- via: popstate
+
+## 2026-09-15 04:47:20.126Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Create Account"}
+
+## 2026-09-15 04:47:20.127Z navigate
+- url: http://localhost:3000/signup
+- via: pushState
+
+## 2026-09-15 04:47:20.254Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:47:20.257Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:47:20.257Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:47:20.257Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 04:47:20.259Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:47:20.260Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:47:27.622Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Already have an account? Log in"}
+
+## 2026-09-15 04:47:49.469Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Already have an account? Log in"}
+
+## 2026-09-15 04:47:59.019Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Already have an account? Log in"}
+
+## 2026-09-15 04:49:02.514Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Already have an account? Log in"}
+
+## 2026-09-15 04:49:36.528Z navigate
+- url: http://localhost:3000/
+- via: popstate
+
+## 2026-09-15 04:49:41.200Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Create Account"}
+
+## 2026-09-15 04:49:41.201Z navigate
+- url: http://localhost:3000/signup
+- via: pushState
+
+## 2026-09-15 04:49:41.319Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:49:41.321Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:49:41.321Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@company.com","label":"Email Address","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:49:41.322Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 04:49:41.324Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:49:41.324Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"At least 6 chars","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:49:47.546Z navigate
+- url: http://localhost:3000/
+- via: popstate
+
+## 2026-09-15 04:49:50.054Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign In to Dashboard"}
+
+## 2026-09-15 04:49:50.055Z navigate
+- url: http://localhost:3000/login
+- via: pushState
+
+## 2026-09-15 04:49:50.164Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 04:49:50.165Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:49:50.165Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 04:49:50.165Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 04:49:50.167Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:49:50.167Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 04:49:52.165Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:49:52.166Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:49:54.318Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2151
+
+## 2026-09-15 04:49:54.321Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:49:54.322Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:50:25.566Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:50:25.567Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:50:27.727Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2159
+
+## 2026-09-15 04:50:27.727Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:50:27.727Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:50:28.900Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:50:28.901Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:50:31.056Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2155
+
+## 2026-09-15 04:50:31.056Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:50:31.057Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:50:33.814Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 04:50:33.815Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 04:50:35.964Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 2149
+
+## 2026-09-15 04:50:35.964Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 04:50:35.964Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 06:24:47.766Z load
+- url: http://localhost:3000/login
+
+## 2026-09-15 06:24:50.376Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 06:24:50.388Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 06:24:50.389Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 06:24:50.389Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 06:24:50.392Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 06:24:50.392Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 06:24:50.587Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 06:24:50.595Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 06:24:54.273Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"test29@gmail.com","password":"[redacted:length=10]"}
+- message: Failed to fetch
+- durationMs: 3669
+
+## 2026-09-15 06:24:54.275Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 06:24:54.276Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/login:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-15 06:27:40.378Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 06:27:40.379Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-15 06:27:41.432Z navigate
+- url: http://localhost:3000/dashboard
+- via: pushState
+
+## 2026-09-15 06:27:41.566Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-15 06:27:41.570Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 06:27:41.571Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"test29@gmail.com","valueLength":16,"text":""}
+
+## 2026-09-15 06:27:41.571Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-15 06:27:41.573Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 06:27:41.574Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=10]","valueLength":10,"text":""}
+
+## 2026-09-15 06:27:50.994Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ReLoop ConsoleScrap network access · Tamil Nadu opsSecure accessSign in to continueWork emailPasswordSign inDon't have an account? Create account"}
+
+## 2026-09-15 06:29:06.561Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-15 06:29:06.562Z submit
+- action: http://localhost:3000/dashboard
+- fields: [{"label":"Work email","type":"email","value":"test29@gmail.com","length":16,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=10]","length":10,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 04:57:24.002Z load
+- url: http://localhost:3000/
+
+## 2026-09-27 04:57:24.218Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-09-27 04:57:39.528Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign In to Dashboard"}
+
+## 2026-09-27 04:57:39.533Z navigate
+- url: http://localhost:3000/login
+- via: pushState
+
+## 2026-09-27 04:57:39.719Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-27 04:57:39.724Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 04:57:39.725Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 04:57:39.725Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-27 04:57:39.729Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 04:57:39.729Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 04:57:42.290Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-27 04:57:42.299Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 04:57:42.341Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"dhanapaul2020@gmail.com","password":"[redacted:length=9]"}
+- message: Failed to fetch
+- durationMs: 40
+
+## 2026-09-27 04:57:42.344Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-27 04:57:42.345Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-27 04:59:24.576Z click
+- element: {"tag":"form","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Secure accessSign in to continueWork emailPasswordUnable to connect to server. Make sure backend is running.Sign in"}
+
+## 2026-09-27 04:59:25.031Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-27 04:59:25.032Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 04:59:25.042Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"dhanapaul2020@gmail.com","password":"[redacted:length=9]"}
+- message: Failed to fetch
+- durationMs: 10
+
+## 2026-09-27 04:59:25.043Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-27 04:59:25.043Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-27 04:59:26.254Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-27 04:59:26.255Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 04:59:26.263Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"dhanapaul2020@gmail.com","password":"[redacted:length=9]"}
+- message: Failed to fetch
+- durationMs: 8
+
+## 2026-09-27 04:59:26.263Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-27 04:59:26.263Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-27 04:59:26.468Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-27 04:59:26.469Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 04:59:26.478Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"dhanapaul2020@gmail.com","password":"[redacted:length=9]"}
+- message: Failed to fetch
+- durationMs: 8
+
+## 2026-09-27 04:59:26.478Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-27 04:59:26.478Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-27 05:00:06.141Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 05:00:07.843Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-27 05:00:07.845Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 05:00:07.845Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 05:00:07.845Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-27 05:00:07.846Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 05:00:07.846Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 05:00:08.062Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-27 05:00:08.063Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 05:00:09.071Z navigate
+- url: http://localhost:3000/dashboard
+- via: pushState
+
+## 2026-09-27 05:00:09.188Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-27 05:00:09.189Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 05:00:09.190Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 05:00:09.190Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-27 05:00:09.191Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 05:00:09.191Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 05:00:14.427Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-27 05:00:14.429Z submit
+- action: http://localhost:3000/dashboard
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 05:11:10.791Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-09-27 05:11:13.601Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-09-27 05:11:15.786Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:11:19.536Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:11:21.860Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:11:23.206Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Settings"}
+
+## 2026-09-27 05:11:23.241Z network.error
+- method: GET
+- url: http://localhost:5000/api/hubs
+- status: 404
+- statusText: Not Found
+- response: 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+    </head>
+    <body>
+    <pre>Cannot GET /api/hubs</pre>
+    </body>
+    </html>
+    
+- durationMs: 27
+
+## 2026-09-27 05:11:23.242Z console.error
+- text: 
+    Error fetching hubs: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+        at fetchData (http://localhost:3000/src/components/scrap/SettingsView.jsx:25:36)
+
+## 2026-09-27 05:11:24.759Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:11:35.572Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:11:37.184Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:11:38.565Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-09-27 05:11:39.985Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-09-27 05:11:41.204Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-09-27 05:11:43.224Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-09-27 05:11:44.793Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-09-27 05:11:49.222Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:11:51.849Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:11:58.232Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:12:37.172Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:12:41.232Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:12:43.918Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-09-27 05:13:58.387Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:14:00.336Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:14:02.085Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:14:03.591Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:14:09.409Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:14:11.989Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:14:13.736Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:14:37.515Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Settings"}
+
+## 2026-09-27 05:14:37.535Z network.error
+- method: GET
+- url: http://localhost:5000/api/hubs
+- status: 404
+- statusText: Not Found
+- response: 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+    </head>
+    <body>
+    <pre>Cannot GET /api/hubs</pre>
+    </body>
+    </html>
+    
+- durationMs: 16
+
+## 2026-09-27 05:14:37.536Z console.error
+- text: 
+    Error fetching hubs: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+        at fetchData (http://localhost:3000/src/components/scrap/SettingsView.jsx:25:36)
+
+## 2026-09-27 05:14:43.742Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:14:47.179Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Settings"}
+
+## 2026-09-27 05:14:47.193Z network.error
+- method: GET
+- url: http://localhost:5000/api/hubs
+- status: 404
+- statusText: Not Found
+- response: 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+    </head>
+    <body>
+    <pre>Cannot GET /api/hubs</pre>
+    </body>
+    </html>
+    
+- durationMs: 10
+
+## 2026-09-27 05:14:47.194Z console.error
+- text: 
+    Error fetching hubs: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+        at fetchData (http://localhost:3000/src/components/scrap/SettingsView.jsx:25:36)
+
+## 2026-09-27 05:14:52.065Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:14:54.036Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:14:56.035Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:14:58.910Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-09-27 05:15:05.050Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-09-27 05:15:17.071Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-09-27 05:17:27.024Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-09-27 05:17:28.494Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-09-27 05:17:30.719Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:17:32.050Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:17:33.406Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:17:41.691Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Settings"}
+
+## 2026-09-27 05:17:41.704Z network.error
+- method: GET
+- url: http://localhost:5000/api/hubs
+- status: 404
+- statusText: Not Found
+- response: 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+    </head>
+    <body>
+    <pre>Cannot GET /api/hubs</pre>
+    </body>
+    </html>
+    
+- durationMs: 10
+
+## 2026-09-27 05:17:41.704Z console.error
+- text: 
+    Error fetching hubs: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+        at fetchData (http://localhost:3000/src/components/scrap/SettingsView.jsx:25:36)
+
+## 2026-09-27 05:17:42.986Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:17:50.541Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-09-27 05:17:58.669Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-09-27 05:18:00.901Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-09-27 05:18:21.460Z focus
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:21.682Z click
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:21.692Z change
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:23.133Z click
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:23.135Z change
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:23.958Z click
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:23.960Z change
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:26.155Z blur
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:26.380Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Export Selected (1)"}
+
+## 2026-09-27 05:18:26.387Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-09-27 05:18:29.570Z click
+- element: {"tag":"td","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-09-27 05:18:30.645Z focus
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:30.872Z click
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:30.874Z change
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:54.106Z blur
+- element: {"tag":"input","role":null,"ariaLabel":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","name":null,"type":"checkbox","id":null,"placeholder":null,"label":"Select row 131ba681-1607-47b5-b4ba-f8e358dabbf7","value":"on","valueLength":2,"text":""}
+
+## 2026-09-27 05:18:54.324Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-09-27 05:18:55.775Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-09-27 05:18:57.138Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-09-27 05:18:58.186Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:18:59.168Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:19:00.568Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-09-27 05:19:02.501Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 05:19:04.150Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Settings"}
+
+## 2026-09-27 05:19:04.162Z network.error
+- method: GET
+- url: http://localhost:5000/api/hubs
+- status: 404
+- statusText: Not Found
+- response: 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+    </head>
+    <body>
+    <pre>Cannot GET /api/hubs</pre>
+    </body>
+    </html>
+    
+- durationMs: 7
+
+## 2026-09-27 05:19:04.162Z console.error
+- text: 
+    Error fetching hubs: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+        at fetchData (http://localhost:3000/src/components/scrap/SettingsView.jsx:25:36)
+
+## 2026-09-27 05:19:05.341Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-09-27 06:11:05.693Z load
+- url: http://localhost:3000/dashboard
+
+## 2026-09-27 06:11:12.851Z navigate
+- url: http://localhost:3000/login
+- via: replaceState
+
+## 2026-09-27 06:41:14.427Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 06:52:09.480Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 06:52:50.250Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 06:53:50.140Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 06:56:06.976Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 06:57:51.784Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:00:55.686Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:03:53.239Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:03:56.521Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-27 07:03:56.525Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 07:03:56.526Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 07:03:56.526Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-27 07:03:56.527Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 07:03:56.529Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 07:03:56.736Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-27 07:03:56.742Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 07:03:57.122Z navigate
+- url: http://localhost:3000/dashboard
+- via: pushState
+
+## 2026-09-27 07:03:57.238Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-27 07:03:57.241Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 07:03:57.241Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 07:03:57.241Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-27 07:03:57.242Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 07:03:57.243Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 07:04:00.030Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-27 07:04:00.031Z submit
+- action: http://localhost:3000/dashboard
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 07:04:14.601Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Total Pickups2Total Weight20.00 KgTotal Earnings₹ 0Pending Payouts₹ 1,240Total Volume Amount₹1,240Across 2 payment recordsTotal Paid / Settled₹0Successfully cleared transactionsPending Disbursements₹1,240Awaiting processing or cash clearanceAll StatusesPaid / SuccessPendingAll ModesUPICashBank TransferCardtoExport CSVTransaction IDMaterialWeightAmountPayment StatusPayment ModeDistrictUser EmailDate & TimeTXN-1789122165771Aluminium Cans10 kg₹1,100PendingOnlineChennaidhanapaul2020@gmail.com11/9/2026, 3:52:45 pmTXN-OLD-93ec499a-346f-48f6-94bf-112fc64e900cMixed Paper10 kg₹140PendingOnline / CashChennaidhanapaul2020@gmail.com10/9/2026, 8:28:34 pmShowing 1 to 2 of 2 entries (Live Synced) PreviousPage 1 of 1Next ReLoop Scrap Management · live database · 2026"}
+
+## 2026-09-27 07:05:58.250Z load
+- url: http://localhost:3000/dashboard
+
+## 2026-09-27 07:05:58.487Z navigate
+- url: http://localhost:3000/login
+- via: replaceState
+
+## 2026-09-27 07:06:58.137Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:07:18.447Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:07:43.483Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:07:58.069Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:08:38.626Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:08:58.064Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:09:58.167Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:11:32.395Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:11:58.240Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:12:08.866Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:12:18.911Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:13:39.023Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:13:58.075Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:14:49.178Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:14:58.067Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:15:14.175Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:15:58.106Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:16:29.378Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:16:54.322Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:17:24.417Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:17:44.394Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:18:24.493Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 07:18:49.483Z load
+- url: http://localhost:3000/login
+
+## 2026-09-27 11:26:13.096Z load
+- url: http://localhost:3000/
+
+## 2026-09-27 11:26:13.214Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-09-27 11:27:06.626Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Go to Dashboard"}
+
+## 2026-09-27 11:27:06.628Z navigate
+- url: http://localhost:3000/dashboard
+- via: pushState
+
+## 2026-09-27 11:27:06.799Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-09-27 11:27:06.808Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 11:27:06.808Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-09-27 11:27:06.809Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-09-27 11:27:06.813Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 11:27:06.814Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-09-27 11:27:08.607Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-09-27 11:27:08.610Z submit
+- action: http://localhost:3000/dashboard
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false}]
+
+## 2026-09-27 11:27:08.652Z network.error
+- method: POST
+- url: http://localhost:5000/api/login
+- requestBody: {"email":"dhanapaul2020@gmail.com","password":"[redacted:length=9]"}
+- message: Failed to fetch
+- durationMs: 41
+
+## 2026-09-27 11:27:08.653Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-09-27 11:27:08.654Z console.error
+- text: 
+    Login error: TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/:491:23)
+        at handleSubmit (http://localhost:3000/src/pages/LoginPage.jsx:28:30)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3739:39)
+        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:3742:33)
+        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7046:11)
+        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7066:15)
+        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-W3YG3FEU.js?v=c806b173:7075:13)
+
+## 2026-10-12 08:04:02.336Z load
+- url: http://localhost:3000/
+
+## 2026-10-12 08:04:02.792Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-12 08:04:13.847Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Go to Dashboard"}
+
+## 2026-10-12 08:04:13.853Z navigate
+- url: http://localhost:3000/dashboard
+- via: pushState
+
+## 2026-10-12 08:04:14.019Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-10-12 08:04:14.028Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-10-12 08:04:14.029Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-10-12 08:04:14.030Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-10-12 08:04:14.032Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-10-12 08:04:14.032Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-10-12 08:04:16.222Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-10-12 08:04:16.228Z submit
+- action: http://localhost:3000/dashboard
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false}]
+
+## 2026-10-12 08:04:27.088Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-10-12 08:04:57.632Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-10-12 08:05:01.779Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-10-12 08:05:30.318Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-10-12 08:05:33.580Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-10-12 08:05:37.723Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-10-12 08:05:43.569Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"Chennai","valueLength":7,"text":"ChennaiCoimbatoreMaduraiSalemTrichyTirunelveliErodeVelloreThanjavurDindigul"}
+
+## 2026-10-12 08:05:43.785Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"Chennai","valueLength":7,"text":"ChennaiCoimbatoreMaduraiSalemTrichyTirunelveliErodeVelloreThanjavurDindigul"}
+
+## 2026-10-12 08:05:44.510Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"Chennai","valueLength":7,"text":"ChennaiCoimbatoreMaduraiSalemTrichyTirunelveliErodeVelloreThanjavurDindigul"}
+
+## 2026-10-12 08:05:45.705Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"Chennai","valueLength":7,"text":"ChennaiCoimbatoreMaduraiSalemTrichyTirunelveliErodeVelloreThanjavurDindigul"}
+
+## 2026-10-12 08:05:45.706Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Enter complete address with landmark","label":"Enter complete address with landmark","value":"","valueLength":0,"text":""}
+
+## 2026-10-12 08:05:45.932Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Enter complete address with landmark","label":"Enter complete address with landmark","value":"","valueLength":0,"text":""}
+
+## 2026-10-12 08:05:47.079Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Total Pickups2Total Weight20.00 KgTotal Earnings₹ 0Pending Payouts₹ 1,240Schedule New Scrap PickupSelect material type, district and weight to lock in your scrap value instantly.Scrap Material TypeMixed Paper (₹14/kg)PET Bottles (₹22/kg)Aluminium Cans (₹110/kg)E-waste (₹85/kg)Iron Scrap (₹28/kg)Cardboard (₹16/kg)Copper Wire (₹450/kg)HDPE Drums (₹35/kg)Glass Cullet (₹6/kg)Brass Fittings (₹320/kg)Weight (kg)Select DistrictChennaiCoimbatoreMaduraiSalemTrichyTirunelveliErodeVelloreThanjavurDindigulPickup Address / Hub LocationCalculated Fixed Scrap Value140Rate: ₹14/kgConfirm and Schedule PickupReLoop Scrap Management · live database · 2026"}
+
+## 2026-10-12 08:05:51.677Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-10-12 08:05:54.026Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-10-12 08:05:55.091Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-10-12 08:05:56.369Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-10-12 08:05:57.682Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-10-12 08:06:40.586Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-10-12 08:06:41.710Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-10-12 08:06:43.476Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-10-12 08:06:52.892Z click
+- element: {"tag":"td","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Online"}
+
+## 2026-10-12 08:07:06.252Z click
+- element: {"tag":"span","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Pending"}
+
+## 2026-10-12 08:07:09.002Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History & Past IncomeComplete breakdown of past earnings, credited payouts, and pending amountsComplete breakdown of past earnings, credited payouts, and pending amounts"}
+
+## 2026-10-12 08:07:11.816Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-10-12 08:07:17.976Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-10-12 08:07:22.753Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Settings"}
+
+## 2026-10-12 08:07:22.789Z network.error
+- method: GET
+- url: http://localhost:5000/api/hubs
+- status: 404
+- statusText: Not Found
+- response: 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+    </head>
+    <body>
+    <pre>Cannot GET /api/hubs</pre>
+    </body>
+    </html>
+    
+- durationMs: 29
+
+## 2026-10-12 08:07:22.790Z console.error
+- text: 
+    Error fetching hubs: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+        at fetchData (http://localhost:3000/src/components/scrap/SettingsView.jsx:25:36)
+
+## 2026-10-12 08:09:24.673Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-10-12 08:09:27.027Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-10-12 08:09:28.865Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-10-12 08:09:31.815Z click
+- element: {"tag":"aside","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ReLoopScrap ManagementSigned in asIndividualdhanapaul2020@gmail.comDashboardSell Your ScrapCollection LogPayment HistoryCompliance ReportsArea ManagementSettingsSign out"}
+
+## 2026-10-12 08:09:32.851Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-10-12 08:09:34.427Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sell Your Scrap"}
+
+## 2026-10-12 08:09:36.250Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Collection Log"}
+
+## 2026-10-12 08:09:39.430Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Payment History"}
+
+## 2026-10-12 08:09:40.587Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Compliance Reports"}
+
+## 2026-10-12 08:09:42.082Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Area Management"}
+
+## 2026-10-12 08:09:43.251Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Settings"}
+
+## 2026-10-12 08:09:43.261Z network.error
+- method: GET
+- url: http://localhost:5000/api/hubs
+- status: 404
+- statusText: Not Found
+- response: 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+    </head>
+    <body>
+    <pre>Cannot GET /api/hubs</pre>
+    </body>
+    </html>
+    
+- durationMs: 7
+
+## 2026-10-12 08:09:43.261Z console.error
+- text: 
+    Error fetching hubs: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+        at fetchData (http://localhost:3000/src/components/scrap/SettingsView.jsx:25:36)
+
+## 2026-10-12 08:09:45.715Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dashboard"}
+
+## 2026-10-12 08:23:50.779Z load
+- url: http://localhost:3000/dashboard
+
+## 2026-10-12 08:23:51.198Z navigate
+- url: http://localhost:3000/login
+- via: replaceState
+
+## 2026-10-12 08:23:53.841Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-10-12 08:23:53.848Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-10-12 08:23:53.849Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-10-12 08:23:53.849Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-10-12 08:23:53.851Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-10-12 08:23:53.851Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-10-12 08:23:54.068Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-10-12 08:23:54.075Z submit
+- action: http://localhost:3000/login
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-12 08:23:54.428Z navigate
+- url: http://localhost:3000/dashboard
+- via: pushState
+
+## 2026-10-12 08:23:54.549Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"","valueLength":0,"text":""}
+
+## 2026-10-12 08:23:54.552Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-10-12 08:23:54.552Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":"email","placeholder":"you@scrapflow.in","label":"Work email","value":"dhanapaul2020@gmail.com","valueLength":23,"text":""}
+
+## 2026-10-12 08:23:54.552Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-10-12 08:23:54.555Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-10-12 08:23:54.555Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":"password","placeholder":"Enter password","label":"Password","value":"[redacted:length=9]","valueLength":9,"text":""}
+
+## 2026-10-12 08:23:56.229Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sign in"}
+
+## 2026-10-12 08:23:56.230Z submit
+- action: http://localhost:3000/dashboard
+- fields: [{"label":"Work email","type":"email","value":"dhanapaul2020@gmail.com","length":23,"redacted":false},{"label":"Password","type":"password","value":"[redacted:length=9]","length":9,"redacted":true},{"label":"Show password","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false}]
+
+## 2026-10-12 08:27:01.875Z load
+- url: http://localhost:3000/dashboard
+
+## 2026-10-12 08:27:02.370Z navigate
+- url: http://localhost:3000/login
+- via: replaceState
+
+## 2026-10-12 08:28:01.089Z load
+- url: http://localhost:3000/login
+
+## 2026-10-12 08:29:00.992Z load
+- url: http://localhost:3000/login
+
+## 2026-10-12 08:29:31.625Z load
+- url: http://localhost:3000/login
+
+## 2026-10-12 08:30:01.080Z load
+- url: http://localhost:3000/login
+
+## 2026-10-12 08:31:01.030Z load
+- url: http://localhost:3000/login
+
+## 2026-10-12 08:32:01.400Z load
+- url: http://localhost:3000/login
+
+## 2026-10-12 08:33:01.025Z load
+- url: http://localhost:3000/login
+
+## 2026-10-12 08:34:01.060Z load
+- url: http://localhost:3000/login
+
+## 2026-10-12 08:35:01.057Z load
+- url: http://localhost:3000/login
+
