@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd apps/web && npx --package=vite vite build --outDir ../../dist/apps/web",
+  "outputDirectory": "dist/apps/web"
+}
